@@ -53,5 +53,5 @@ mie_ayam = 'enak'
 bakso = 'enak'
 
 print((mie_ayam == 'enak') and (bakso == 'tidak enak'))
-print((mie_ayam == 'enak') or (bakso == 'enak'))
+print((mie_ayam == 'enak') or (bakso == 'tidak enak'))
 print(not (bakso == 'enak'))
