@@ -1,7 +1,7 @@
 # Python Basic Operation
 
 # Operasi Aritmatika
-angka1 = 7
+angka1 = 9
 angka2 = 15
 
 tambah = angka1 + angka2
