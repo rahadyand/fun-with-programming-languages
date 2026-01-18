@@ -30,6 +30,3 @@ for i in range(len(angka1)):
 
 ## while = selama (Potentially Infinite, conditional)
 # melakukan looping selama kondisi bernilai benar
-
-
-print('ibuk nana')
