@@ -35,4 +35,4 @@ for baris in range(len(A)):
         hasil[baris][kolom] = A[baris][kolom] + B[baris][kolom]
         # print(f'A[{baris}][{kolom}] = {A[baris][kolom]}')
         print(hasil[baris][kolom], end= ' ')
-    print('')
+    print(' ')
