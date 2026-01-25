@@ -1,5 +1,5 @@
 # Conditional
-nilai = 90
+nilai = 70
 
 if nilai >= 70:
     print('Lulus')
