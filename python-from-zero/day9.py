@@ -49,12 +49,26 @@ print(f'Volume bola = {volume_bola_10}, nilai phi = {nilai_phi}')
 
 
 
+## FUNGSI RETURN dalam DEF
 
+def biodata():
+    print('======= BIODATA =======')
+    nama = input('Nama = ')
+    umur = input('Umur = ')
+    TTL = input('Tanggal Lahir =')
+    print(f'Halo {nama}!, Selamat Datang')
+    print(f'Umur {nama} = {umur}')
+    print(f'Tanggal lahir {nama} = {TTL}')
+    return nama, umur, TTL
 
+# Memanggil fungsi dan MENANGKAP hasil lemparannya
+n, u, t = biodata() 
 
-
-
-
-
+# Sekarang data itu bisa dipakai di tempat lain di luar fungsi
+print(f"Bulan depan, {n} akan berulang tahun!")
+if int(u) > 17:
+    print("Boleh bikin KTP")
+else:
+    print('Sabar dulu ya')
 
 
