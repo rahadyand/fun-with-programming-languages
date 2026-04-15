@@ -1,6 +1,6 @@
 ## Function
 
-# contohnya
+# contohnyaa
 def sapa_orang():
     print('Halo, gimana kabarnya?')
 
